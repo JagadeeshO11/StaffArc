@@ -1,0 +1,22 @@
+.newsbar {
+  background: linear-gradient(135deg, #00d4ff 0%, #0099cc 100%);
+  padding: 0.6rem 0;
+  overflow: hidden;
+}
+
+.news-scroll {
+  display: flex;
+  gap: 3rem;
+  animation: scroll 30s linear infinite;
+  white-space: nowrap;
+}
+
+.news-scroll span {
+  color: #fff;
+  font-weight: 500;
+}
+
+@keyframes scroll {
+  0% { transform: translateX(0); }
+  100% { transform: translateX(-50%); }
+}

@@ -1,0 +1,2 @@
+<!-- This is a placeholder. You need to add a real 4-second networking video -->
+<!-- Place your video file in public folder as 'network-animation.mp4' -->

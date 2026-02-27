@@ -1,0 +1,146 @@
+.about {
+  padding: 5rem 2rem;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* Tablet (768px - 1199px) */
+@media (min-width: 768px) and (max-width: 1199px) {
+  .about {
+    padding: 4rem 1.5rem;
+  }
+
+  .leaders-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .services-list {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .locations-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+/* Mobile (below 768px) */
+@media (max-width: 767px) {
+  .about {
+    padding: 3rem 1rem;
+  }
+
+  .leaders-grid,
+  .services-list,
+  .locations-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* Mobile Portrait (below 480px) */
+@media (max-width: 480px) {
+  .about {
+    padding: 2.5rem 0.8rem;
+  }
+
+  .leader-card,
+  .service-item,
+  .location-card {
+    padding: 1.2rem;
+  }
+}
+
+.about-profile, .about-leaders, .about-services, .about-locations {
+  margin-bottom: 5rem;
+}
+
+.about h2 {
+  font-size: clamp(1.8rem, 5vw, 2.5rem);
+  margin-bottom: 2rem;
+  text-align: center;
+  color: #00d4ff;
+  font-weight: 700;
+}
+
+.about-profile p {
+  text-align: center;
+  color: #b8b9c4;
+  font-size: 1.2rem;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.leaders-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 2rem;
+}
+
+.leader-card {
+  background: #1a1f3a;
+  padding: 2rem;
+  border-radius: 10px;
+  text-align: center;
+  border: 1px solid #2a2f4a;
+}
+
+.leader-card img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 1rem;
+  border: 3px solid #667eea;
+  background: transparent;
+  opacity: 0.95;
+}
+
+.leader-card h3 {
+  margin-bottom: 0.5rem;
+  color: #00d4ff;
+}
+
+.leader-card p {
+  color: #0099cc;
+}
+
+.services-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 2rem;
+}
+
+.service-item {
+  background: #1a1f3a;
+  border-radius: 10px;
+  overflow: hidden;
+  border: 1px solid #2a2f4a;
+}
+
+.service-item img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  background: transparent;
+  opacity: 0.9;
+}
+
+.service-item h3 {
+  padding: 1.5rem;
+  text-align: center;
+  color: #00d4ff;
+}
+
+.locations-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 1.5rem;
+}
+
+.location-card {
+  background: #1a1f3a;
+  padding: 1.5rem;
+  border-radius: 10px;
+  text-align: center;
+  border: 1px solid #2a2f4a;
+  font-size: 1.1rem;
+}
