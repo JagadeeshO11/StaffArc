@@ -1,6 +1,6 @@
 .why-choose {
   padding: 5rem 2rem;
-  background: #0f1229;
+  background: #000;
 }
 
 /* Tablet (768px - 1199px) */
@@ -40,7 +40,7 @@
   text-align: center;
   font-size: clamp(1.8rem, 5vw, 2.5rem);
   margin-bottom: 3rem;
-  color: #00d4ff;
+  color: #FFD700;
   font-weight: 700;
 }
 
@@ -53,20 +53,20 @@
 }
 
 .why-card {
-  background: rgba(26, 31, 58, 0.3);
+  background: #1a1a1a;
   padding: 2rem;
   border-radius: 10px;
   text-align: center;
-  border: 2px solid rgba(0, 212, 255, 0.3);
+  border: 2px solid rgba(255, 215, 0, 0.3);
   transition: all 0.3s;
   backdrop-filter: blur(10px);
-  box-shadow: 0 0 20px rgba(0, 212, 255, 0.1);
+  box-shadow: 0 0 20px rgba(255, 215, 0, 0.1);
 }
 
 .why-card:hover {
   transform: translateY(-10px);
-  border-color: rgba(0, 212, 255, 0.8);
-  box-shadow: 0 0 30px rgba(0, 212, 255, 0.5), 0 10px 30px rgba(0, 212, 255, 0.4);
+  border-color: rgba(255, 215, 0, 0.8);
+  box-shadow: 0 0 30px rgba(255, 215, 0, 0.5), 0 10px 30px rgba(255, 215, 0, 0.4);
 }
 
 .why-icon {
@@ -76,9 +76,9 @@
 
 .why-card h3 {
   margin-bottom: 0.5rem;
-  color: #00d4ff;
+  color: #FFD700;
 }
 
 .why-card p {
-  color: #b8b9c4;
+  color: #fff;
 }

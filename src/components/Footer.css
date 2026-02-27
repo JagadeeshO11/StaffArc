@@ -1,6 +1,6 @@
 .footer {
-  background: linear-gradient(180deg, #0a0e27 0%, #050812 100%);
-  color: #fff;
+  background: linear-gradient(180deg, #000000 0%, #0a0a0a 100%);
+  color: #FFD700;
   padding: 3rem 2rem 1rem;
 }
 
@@ -54,11 +54,11 @@
 
 .footer-section h3, .footer-section h4 {
   margin-bottom: 1rem;
-  color: #00d4ff;
+  color: #FFD700;
 }
 
 .footer-logo {
-  height: 70px;
+  height: 140px;
   width: auto;
   object-fit: contain;
   margin-bottom: 1rem;
@@ -67,24 +67,24 @@
 
 .footer-section a {
   display: block;
-  color: #b8b9c4;
+  color: #DAA520;
   text-decoration: none;
   margin-bottom: 0.5rem;
   transition: color 0.3s;
 }
 
 .footer-section a:hover {
-  color: #00d4ff;
+  color: #FFD700;
 }
 
 .footer-section p {
-  color: #b8b9c4;
+  color: #DAA520;
   margin-bottom: 0.5rem;
 }
 
 .footer-bottom {
   text-align: center;
   padding-top: 2rem;
-  border-top: 1px solid #2a2f4a;
-  color: #b8b9c4;
+  border-top: 1px solid #2a2a2a;
+  color: #DAA520;
 }

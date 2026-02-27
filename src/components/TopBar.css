@@ -1,8 +1,8 @@
 .topbar {
-  background: #060920;
+  background: #000000;
   padding: 0.7rem 0;
   font-size: 0.85rem;
-  border-bottom: 1px solid #1a1f3a;
+  border-bottom: 1px solid #1a1a1a;
 }
 
 .topbar-container {
@@ -17,7 +17,7 @@
 .topbar-left {
   display: flex;
   gap: 2rem;
-  color: #b8b9c4;
+  color: #FFD700;
 }
 
 .topbar-right {
@@ -27,7 +27,7 @@
 }
 
 .topbar-right a {
-  color: #b8b9c4;
+  color: #FFD700;
   text-decoration: none;
   transition: all 0.3s;
   display: flex;
@@ -35,7 +35,7 @@
 }
 
 .topbar-right a:hover {
-  color: #00d4ff;
+  color: #DAA520;
   transform: translateY(-2px);
 }
 

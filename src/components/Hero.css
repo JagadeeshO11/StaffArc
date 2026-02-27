@@ -35,7 +35,7 @@
 .hero-content h1 {
   font-size: clamp(2rem, 8vw, 4rem);
   margin-bottom: 1.5rem;
-  background: linear-gradient(135deg, #00d4ff 0%, #0099cc 100%);
+  background: linear-gradient(135deg, #FFD700 0%, #DAA520 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   animation: fadeInUp 1s ease;
@@ -61,7 +61,7 @@
 /* Contact Section */
 .contact {
   padding: 4rem 2rem;
-  background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%);
+  background: #000;
   text-align: center;
 }
 
@@ -74,14 +74,14 @@
   font-size: 2.5rem;
   color: #fff;
   margin-bottom: 1rem;
-  background: linear-gradient(135deg, #00d4ff 0%, #0099cc 100%);
+  background: linear-gradient(135deg, #FFD700 0%, #DAA520 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 
 .contact p {
   font-size: 1.2rem;
-  color: #ccc;
+  color: #fff;
   margin-bottom: 2rem;
 }
 
@@ -90,8 +90,8 @@
   align-items: center;
   gap: 0.5rem;
   padding: 1rem 2rem;
-  background: #25d366;
-  color: white;
+  background: #FFD700;
+  color: #000;
   text-decoration: none;
   border-radius: 25px;
   font-weight: 600;
@@ -99,9 +99,9 @@
 }
 
 .whatsapp-btn:hover {
-  background: #128c7e;
+  background: #DAA520;
   transform: translateY(-2px);
-  box-shadow: 0 5px 15px rgba(37, 211, 102, 0.4);
+  box-shadow: 0 5px 15px rgba(255, 215, 0, 0.4);
 }
 
 @keyframes fadeInUp {
@@ -126,25 +126,25 @@
 }
 
 .btn-primary {
-  background: linear-gradient(135deg, #00d4ff 0%, #0099cc 100%);
-  color: #fff;
+  background: linear-gradient(135deg, #FFD700 0%, #DAA520 100%);
+  color: #000;
 }
 
 .btn-secondary {
   background: transparent;
-  border: 2px solid #00d4ff;
-  color: #00d4ff;
+  border: 2px solid #FFD700;
+  color: #FFD700;
 }
 
 .btn-primary:hover {
   transform: translateY(-5px);
-  box-shadow: 0 10px 30px rgba(0, 212, 255, 0.5);
+  box-shadow: 0 10px 30px rgba(255, 215, 0, 0.5);
 }
 
 .btn-secondary:hover {
   transform: translateY(-5px);
-  background: #00d4ff;
-  color: #fff;
+  background: #FFD700;
+  color: #000;
 }
 
 @media (max-width: 768px) {

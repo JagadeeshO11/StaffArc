@@ -2,16 +2,16 @@
   font-family: 'Inter', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
   line-height: 1.6;
   font-weight: 400;
-  color: #fff;
-  background-color: #0a0e27;
+  color: #FFD700;
+  background-color: #000000;
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  --primary-color: #00d4ff;
-  --secondary-color: #0099cc;
-  --dark-bg: #0a0e27;
-  --card-bg: #1a1f3a;
+  --primary-color: #FFD700;
+  --secondary-color: #DAA520;
+  --dark-bg: #000000;
+  --card-bg: #1a1a1a;
 }
 
 body {

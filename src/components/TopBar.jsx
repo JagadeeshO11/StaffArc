@@ -6,9 +6,9 @@ const TopBar = () => {
     <div className="topbar">
       <div className="topbar-container">
         <div className="topbar-left">
-          <span>📍 123 Tech Street, Silicon Valley</span>
-          <span>✉️ info@nxtvision.com</span>
-          <span>🕒 Mon-Fri: 9AM-6PM</span>
+          <span>📍 5830 E 2nd St, Ste 7000 #32653, Casper, Wyoming - 82609 US</span>
+          <span>✉️ info@nxtvisionnetworks.com</span>
+          <span>📞 +1 512-575-3440</span>
         </div>
         <div className="topbar-right">
           <a href="https://instagram.com" target="_blank" rel="noopener noreferrer">

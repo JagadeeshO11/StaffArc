@@ -22,10 +22,10 @@
 .client-card {
   min-width: 250px;
   height: 150px;
-  background: #1a1f3a;
+  background: #1a1a1a;
   border-radius: 10px;
   overflow: hidden;
-  border: 1px solid #2a2f4a;
+  border: 1px solid #2a2a2a;
 }
 
 .client-card img {

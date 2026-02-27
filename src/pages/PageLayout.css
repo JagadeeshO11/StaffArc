@@ -11,14 +11,14 @@
 .page-hero h1 {
   font-size: 3rem;
   margin-bottom: 1rem;
-  background: linear-gradient(135deg, #00d4ff 0%, #0099cc 100%);
+  background: linear-gradient(135deg, #FFD700 0%, #DAA520 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 
 .page-hero p {
   font-size: 1.3rem;
-  color: #b8b9c4;
+  color: #fff;
 }
 
 .page-content {
@@ -41,36 +41,36 @@
 }
 
 .content-card {
-  background: rgba(26, 31, 58, 0.4);
+  background: #1a1a1a;
   padding: 2.5rem;
   border-radius: 15px;
   margin-bottom: 2rem;
-  border: 2px solid rgba(0, 212, 255, 0.3);
+  border: 2px solid rgba(255, 215, 0, 0.3);
   backdrop-filter: blur(10px);
   transition: all 0.3s;
-  box-shadow: 0 0 20px rgba(0, 212, 255, 0.1);
+  box-shadow: 0 0 20px rgba(255, 215, 0, 0.1);
 }
 
 .content-card:hover {
-  border-color: rgba(0, 212, 255, 0.8);
-  box-shadow: 0 0 30px rgba(0, 212, 255, 0.5), 0 8px 25px rgba(0, 212, 255, 0.3);
+  border-color: rgba(255, 215, 0, 0.8);
+  box-shadow: 0 0 30px rgba(255, 215, 0, 0.5), 0 8px 25px rgba(255, 215, 0, 0.3);
   transform: translateY(-5px);
 }
 
 .content-card h2 {
-  color: #00d4ff;
+  color: #FFD700;
   margin-bottom: 1rem;
   font-size: 2rem;
 }
 
 .content-card p {
-  color: #b8b9c4;
+  color: #fff;
   line-height: 1.8;
   font-size: 1.1rem;
 }
 
 .content-card ul {
-  color: #b8b9c4;
+  color: #fff;
   line-height: 2;
   font-size: 1.1rem;
 }
@@ -82,20 +82,20 @@
 }
 
 .feature-item {
-  background: rgba(26, 31, 58, 0.4);
+  background: #1a1a1a;
   padding: 2rem;
   border-radius: 15px;
   text-align: center;
-  border: 2px solid rgba(0, 212, 255, 0.3);
+  border: 2px solid rgba(255, 215, 0, 0.3);
   backdrop-filter: blur(10px);
   transition: all 0.3s;
-  box-shadow: 0 0 20px rgba(0, 212, 255, 0.1);
+  box-shadow: 0 0 20px rgba(255, 215, 0, 0.1);
 }
 
 .feature-item:hover {
   transform: translateY(-10px);
-  border-color: rgba(0, 212, 255, 0.8);
-  box-shadow: 0 0 30px rgba(0, 212, 255, 0.5), 0 10px 30px rgba(0, 212, 255, 0.4);
+  border-color: rgba(255, 215, 0, 0.8);
+  box-shadow: 0 0 30px rgba(255, 215, 0, 0.5), 0 10px 30px rgba(255, 215, 0, 0.4);
 }
 
 .feature-icon {
@@ -105,12 +105,12 @@
 }
 
 .feature-item h3 {
-  color: #00d4ff;
+  color: #FFD700;
   margin-bottom: 1rem;
 }
 
 .feature-item p {
-  color: #b8b9c4;
+  color: #fff;
   line-height: 1.6;
 }
 

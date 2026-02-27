@@ -25,16 +25,16 @@ const Navbar = () => {
   };
 
   const menuItems = [
-    { 
-      name: 'Home', 
+    {
+      name: 'Home',
       sub: [
         { name: 'Welcome', path: '/welcome' },
         { name: 'Features', path: '/features' },
         { name: 'Testimonials', path: '/' }
-      ] 
+      ]
     },
-    { 
-      name: 'Services', 
+    {
+      name: 'Services',
       sub: [
         { name: 'Network Installation', path: '/network-installation' },
         { name: 'Fiber Optics', path: '/fiber-optics' },
@@ -42,24 +42,24 @@ const Navbar = () => {
         { name: 'Security Systems', path: '/security-systems' },
         { name: 'Maintenance & Support', path: '/maintenance' },
         { name: 'Consulting', path: '/consulting' }
-      ] 
+      ]
     },
-    { 
-      name: 'About', 
+    {
+      name: 'About',
       sub: [
         { name: 'Company Profile', path: '/company-profile' },
         { name: 'Our Leaders', path: '/our-leaders' },
         { name: 'Service Locations', path: '/service-locations' },
         { name: 'Certifications', path: '/certifications' }
-      ] 
+      ]
     },
-    { 
-      name: 'Resources', 
+    {
+      name: 'Resources',
       sub: [
         { name: 'Blog', path: '/blog' },
         { name: 'Case Studies', path: '/case-studies' },
         { name: 'Documentation', path: '/documentation' }
-      ] 
+      ]
     }
   ];
 
@@ -67,7 +67,8 @@ const Navbar = () => {
     <nav className="navbar">
       <div className="nav-container">
         <Link to="/" className="nav-logo">
-          <img src={logo} alt="NxtVision Logo" />
+          <img src={logo} alt="NXTVISION NETWORKS Logo" align="left" />
+
         </Link>
         <div className={`nav-menu ${isOpen ? 'active' : ''}`}>
           {menuItems.map((item, idx) => (
